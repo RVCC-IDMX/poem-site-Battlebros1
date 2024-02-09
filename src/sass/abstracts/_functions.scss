@@ -7,7 +7,7 @@
 
 // slightly darken
 @function shade($color, $percentage) {
-  @return mix(black, $color, $percentage);
+  @return mix(rgb(214, 7, 7), $color, $percentage);
 }
 
 // auto detect background and set color
